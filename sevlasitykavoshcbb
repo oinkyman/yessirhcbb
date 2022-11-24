@@ -1,0 +1,27 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("hcbb 9v9 2.0 script", "Synapse")
+
+-- MAIN
+local Main = Window:NewTab("the hcbb script")
+local MainSection = Main:NewSection("your stuff")
+
+
+MainSection:NewButton("ball prediction need synapse x doesnt auto hit", "it predicts", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/sugU2hKk"))()
+end)
+
+MainSection:NewButton("makes ball bigger so you can ez hit", "you need synapse x for it to work", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/5wJmqhD1"))()
+end)
+
+MainSection:NewButton("ball esp", "if your dumass eye cant follow the ball", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/A3v7nrPh"))()
+end)
+
+MainSection:NewButton("strike esp", "strike zone if u cant read balls", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/bFfsDH0s"))()
+end)
+
+MainSection:NewButton("read the desc FOV", "it sets it close", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/81XyZQAd"))()
+end)
